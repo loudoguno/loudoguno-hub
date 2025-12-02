@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Changelog Entry Schema",
+  "description": "Schema for individual changelog entries",
+  "required": ["version", "date", "title", "build", "sections"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version (X.Y.Z)"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Release date (YYYY-MM-DD)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable release title"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Optional brief summary of the release"
+    },
+    "build": {
+      "type": "object",
+      "required": ["sha", "num", "time"],
+      "properties": {
+        "sha": {
+          "type": "string",
+          "description": "Git commit SHA (short form)"
+        },
+        "num": {
+          "type": "integer",
+          "description": "Build number"
+        },
+        "time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Build timestamp (ISO 8601)"
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["emoji", "title", "items"],
+        "properties": {
+          "emoji": {
+            "type": "string",
+            "description": "Section emoji icon"
+          },
+          "title": {
+            "type": "string",
+            "description": "Section title (e.g., 'Improvements', 'Fixes')"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["text"],
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "description": "Optional label/category for the item"
+                },
+                "text": {
+                  "type": "string",
+                  "description": "Description of the change"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "fromSha": {
+          "type": "string",
+          "description": "Previous commit SHA"
+        },
+        "toSha": {
+          "type": "string",
+          "description": "Current commit SHA"
+        },
+        "breaking": {
+          "type": "boolean",
+          "description": "Whether this release contains breaking changes"
+        }
+      }
+    }
+  }
+}

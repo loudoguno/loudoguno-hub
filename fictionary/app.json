@@ -1,0 +1,17 @@
+{
+  "slug": "fictionary",
+  "name": "Fictionary AI",
+  "description": "Multiplayer word game where players bluff each other with fake definitions",
+  "url": "https://loudog.uno/fictionary",
+  "repo": "https://github.com/loudoguno/fictionary.ai",
+  "status": "beta",
+  "categories": ["game", "multiplayer", "ai"],
+  "firstReleased": "2025-12-01",
+  "lastUpdated": "2025-12-01T00:00:00Z",
+  "features": {
+    "changelog": true,
+    "roadmap": false,
+    "issueVoting": false,
+    "publicDocs": false
+  }
+}

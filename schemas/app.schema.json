@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "App Metadata Schema",
+  "description": "Schema for app metadata in loudoguno-hub",
+  "required": ["slug", "name", "description", "url", "status", "features"],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "URL-friendly app identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the app"
+    },
+    "description": {
+      "type": "string",
+      "description": "Short description of what the app does"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Public URL where the app is hosted"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "description": "GitHub repository URL"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["alpha", "beta", "stable", "deprecated"],
+      "description": "Current development status"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Tags/categories for the app"
+    },
+    "firstReleased": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of first public release (YYYY-MM-DD)"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of last update"
+    },
+    "socials": {
+      "type": "object",
+      "properties": {
+        "twitter": { "type": "string", "format": "uri" },
+        "discord": { "type": "string", "format": "uri" }
+      }
+    },
+    "features": {
+      "type": "object",
+      "required": ["changelog"],
+      "properties": {
+        "changelog": {
+          "type": "boolean",
+          "description": "Whether changelog is enabled"
+        },
+        "roadmap": {
+          "type": "boolean",
+          "description": "Whether public roadmap is enabled"
+        },
+        "issueVoting": {
+          "type": "boolean",
+          "description": "Whether feature voting is enabled"
+        },
+        "publicDocs": {
+          "type": "boolean",
+          "description": "Whether public documentation is available"
+        }
+      }
+    }
+  }
+}
