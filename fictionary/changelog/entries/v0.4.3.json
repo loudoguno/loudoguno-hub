@@ -1,0 +1,26 @@
+{
+  "version": "0.4.3",
+  "date": "2025-12-03",
+  "title": "Update",
+  "build": {
+    "sha": "b749223",
+    "num": 12,
+    "time": "2025-12-03T19:39:06.524Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "create public/changelog directory in prebuild script"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "9448313",
+    "toSha": "b749223",
+    "breaking": false
+  }
+}
