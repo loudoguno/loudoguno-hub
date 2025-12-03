@@ -1,0 +1,26 @@
+{
+  "version": "0.4.1",
+  "date": "2025-12-03",
+  "title": "Update",
+  "build": {
+    "sha": "b55a1b1",
+    "num": 10,
+    "time": "2025-12-03T19:31:26.219Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "update changelog package to v0.1.2 with CSS export"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "5b6c136",
+    "toSha": "b55a1b1",
+    "breaking": false
+  }
+}
