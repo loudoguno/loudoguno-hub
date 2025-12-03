@@ -1,0 +1,35 @@
+{
+  "version": "0.3.0",
+  "date": "2025-12-03",
+  "title": "Update",
+  "build": {
+    "sha": "d947f4c",
+    "num": 7,
+    "time": "2025-12-03T18:58:27.523Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "complete Phase 3 changelog system deployment"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "refine privacy patterns to match actual secrets not just keywords"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "42537d7",
+    "toSha": "d947f4c",
+    "breaking": false
+  }
+}

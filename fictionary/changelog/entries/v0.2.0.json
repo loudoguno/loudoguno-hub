@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "date": "2025-12-03",
+  "title": "Update",
+  "build": {
+    "sha": "42537d7",
+    "num": 4,
+    "time": "2025-12-03T18:43:49.381Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "complete changelog system integration"
+        },
+        {
+          "text": "integrate changelog system with dynamic versioning"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "grant workflow write permissions to push commits"
+        },
+        {
+          "text": "install version-changelog-updater from GitHub in workflow"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "8b7d67a",
+    "toSha": "42537d7",
+    "breaking": false
+  }
+}
