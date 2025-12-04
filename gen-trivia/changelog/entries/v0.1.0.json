@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "date": "2025-12-04",
+  "title": "Update",
+  "build": {
+    "sha": "2c026a5",
+    "num": 1,
+    "time": "2025-12-04T01:32:23.756Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "integrate @loudevuno/feedback-widget"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "remove projectId from Linear API call to match working fictionary.ai pattern"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "toSha": "2c026a5",
+    "breaking": false
+  }
+}
