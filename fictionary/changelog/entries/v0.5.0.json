@@ -1,0 +1,26 @@
+{
+  "version": "0.5.0",
+  "date": "2025-12-25",
+  "title": "Update",
+  "build": {
+    "sha": "1eb0da7",
+    "num": 13,
+    "time": "2025-12-25T04:27:53.346Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "implement multiple gameplay improvements from Linear backlog"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "b749223",
+    "toSha": "1eb0da7",
+    "breaking": false
+  }
+}
