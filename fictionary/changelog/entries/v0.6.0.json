@@ -1,0 +1,26 @@
+{
+  "version": "0.6.0",
+  "date": "2025-12-25",
+  "title": "Update",
+  "build": {
+    "sha": "3f14a73",
+    "num": 14,
+    "time": "2025-12-25T08:13:15.802Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "enhanced lobby system with random names, player previews, and privacy toggle"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "1eb0da7",
+    "toSha": "3f14a73",
+    "breaking": false
+  }
+}
