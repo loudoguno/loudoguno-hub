@@ -1,0 +1,27 @@
+{
+  "version": "0.15.5",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "131c2df",
+    "num": 1,
+    "time": "2025-12-29T07:48:53.716Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Tts",
+          "text": "use refs for voice settings to prevent stale closures"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "dae16bb",
+    "toSha": "131c2df",
+    "breaking": false
+  }
+}

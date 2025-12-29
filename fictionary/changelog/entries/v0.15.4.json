@@ -1,0 +1,27 @@
+{
+  "version": "0.15.4",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "dae16bb",
+    "num": 1,
+    "time": "2025-12-29T07:46:08.881Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Tts",
+          "text": "use ElevenLabs for definition reading"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "bab4d36",
+    "toSha": "dae16bb",
+    "breaking": false
+  }
+}

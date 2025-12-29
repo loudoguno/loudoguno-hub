@@ -1,0 +1,27 @@
+{
+  "version": "0.15.0",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "e567eca",
+    "num": 1,
+    "time": "2025-12-29T07:04:04.921Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Tts",
+          "text": "add voice provider toggle and voice picker button"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "5dcc7cd",
+    "toSha": "e567eca",
+    "breaking": false
+  }
+}

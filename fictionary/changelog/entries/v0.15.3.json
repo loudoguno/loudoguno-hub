@@ -1,0 +1,27 @@
+{
+  "version": "0.15.3",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "bab4d36",
+    "num": 1,
+    "time": "2025-12-29T07:39:12.968Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Suspense",
+          "text": "prevent animation restart on parent re-render"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "ba89e6f",
+    "toSha": "bab4d36",
+    "breaking": false
+  }
+}

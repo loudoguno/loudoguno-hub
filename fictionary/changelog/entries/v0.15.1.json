@@ -1,0 +1,27 @@
+{
+  "version": "0.15.1",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "fcc2e36",
+    "num": 1,
+    "time": "2025-12-29T07:09:24.183Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Tts",
+          "text": "use secure API proxy for ElevenLabs calls"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "e567eca",
+    "toSha": "fcc2e36",
+    "breaking": false
+  }
+}
