@@ -1,0 +1,37 @@
+{
+  "version": "0.7.0",
+  "date": "2025-12-26",
+  "title": "Update",
+  "build": {
+    "sha": "d3a19df",
+    "num": 1,
+    "time": "2025-12-26T21:04:26.305Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Difficulty",
+          "text": "add 5-level word difficulty meter"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Difficulty",
+          "text": "move useState before useEffect that references it"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "bda4630",
+    "toSha": "d3a19df",
+    "breaking": false
+  }
+}

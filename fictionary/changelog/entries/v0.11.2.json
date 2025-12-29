@@ -1,0 +1,26 @@
+{
+  "version": "0.11.2",
+  "date": "2025-12-27",
+  "title": "Update",
+  "build": {
+    "sha": "79eaca7",
+    "num": 1,
+    "time": "2025-12-27T03:12:59.444Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "address session 3 playtest feedback"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "ede8a2a",
+    "toSha": "79eaca7",
+    "breaking": false
+  }
+}

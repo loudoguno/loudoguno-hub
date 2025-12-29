@@ -1,26 +1,62 @@
 {
   "version": "0.5.0",
   "date": "2025-12-25",
-  "title": "Update",
+  "title": "Enhanced Lobby & Gameplay Improvements",
   "build": {
-    "sha": "1eb0da7",
-    "num": 1,
-    "time": "2025-12-25T05:19:41.775Z"
+    "sha": "3f14a73",
+    "num": 2,
+    "time": "2025-12-25T06:30:00.000Z"
   },
   "sections": [
+    {
+      "emoji": "🎉",
+      "title": "New Features",
+      "items": [
+        {
+          "text": "Random name generator - players get fun names like 'nerdy-octopus' on join"
+        },
+        {
+          "text": "Player previews in room list - see who's in each game before joining"
+        },
+        {
+          "text": "Public/Private room toggle - hosts can hide rooms from the public list"
+        },
+        {
+          "text": "Enhanced waiting room - edit name and avatar while waiting for game to start"
+        },
+        {
+          "text": "Late join support - players can join games in progress as spectators"
+        }
+      ]
+    },
     {
       "emoji": "💎",
       "title": "Improvements",
       "items": [
         {
-          "text": "implement multiple gameplay improvements from Linear backlog"
+          "text": "Auto-submit partial definitions when timer expires (LOU-36)"
+        },
+        {
+          "text": "Changed default submission timer to 60 seconds (LOU-27)"
+        },
+        {
+          "text": "Added voting phase timer for consistent pacing (LOU-31)"
+        },
+        {
+          "text": "Real-time vote announcements during voting phase (LOU-26)"
+        },
+        {
+          "text": "Improved TTS voice selection - excludes novelty/whisper voices (LOU-24)"
+        },
+        {
+          "text": "Cleaner definitions - semicolons replaced with commas (LOU-33)"
         }
       ]
     }
   ],
   "meta": {
     "fromSha": "b749223",
-    "toSha": "1eb0da7",
+    "toSha": "3f14a73",
     "breaking": false
   }
 }

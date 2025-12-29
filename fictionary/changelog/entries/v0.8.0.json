@@ -1,17 +1,20 @@
 {
-  "version": "0.6.0",
+  "version": "0.8.0",
   "date": "2025-12-26",
   "title": "Update",
   "build": {
-    "sha": "bda4630",
+    "sha": "0f47973",
     "num": 1,
-    "time": "2025-12-26T16:50:29.556Z"
+    "time": "2025-12-26T21:07:40.217Z"
   },
   "sections": [
     {
       "emoji": "💎",
       "title": "Improvements",
       "items": [
+        {
+          "text": "add Roadmap page with voting for feature ideas"
+        },
         {
           "text": "auto-join game when clicking public party (skip setup screen)"
         },
@@ -46,8 +49,8 @@
     }
   ],
   "meta": {
-    "fromSha": "3f14a73",
-    "toSha": "bda4630",
+    "fromSha": "d3a19df",
+    "toSha": "0f47973",
     "breaking": false
   }
 }

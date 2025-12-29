@@ -1,0 +1,98 @@
+{
+  "version": "0.13.0",
+  "date": "2025-12-28",
+  "title": "Auto-Claude Fixes & Enhancements",
+  "build": {
+    "sha": "9046be7",
+    "num": 1,
+    "time": "2025-12-28T11:50:00.000Z"
+  },
+  "sections": [
+    {
+      "emoji": "✨",
+      "title": "New Features",
+      "items": [
+        {
+          "text": "Edit Profile: change your name and avatar from the Help menu anytime"
+        },
+        {
+          "text": "Redesigned voting screen with card-based definition layout"
+        },
+        {
+          "text": "Real-time vote count display on host screen during voting"
+        },
+        {
+          "text": "Animated vote status indicators with visual highlights"
+        }
+      ]
+    },
+    {
+      "emoji": "♿",
+      "title": "Accessibility",
+      "items": [
+        {
+          "text": "ARIA labels for emoji avatars and icon-only buttons"
+        },
+        {
+          "text": "ARIA live regions for timer and game phase announcements"
+        },
+        {
+          "text": "Visible focus indicators with :focus-visible styles"
+        },
+        {
+          "text": "Color contrast fixes for WCAG AA compliance"
+        }
+      ]
+    },
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "Default submission timer increased from 60s to 120s"
+        },
+        {
+          "text": "Optimized bundle size with tree-shaking Lucide imports"
+        },
+        {
+          "text": "Debounced settings persistence for better performance"
+        },
+        {
+          "text": "Improved TTS voice initialization with voiceschanged event"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "Duplicate player names now get automatic suffix (Player 2, etc.)"
+        },
+        {
+          "text": "Definition order now syncs correctly between host and clients"
+        },
+        {
+          "text": "Vote banner no longer blocks touch events on mobile"
+        },
+        {
+          "text": "Stale state issues in Supabase callbacks resolved"
+        },
+        {
+          "text": "Race condition prevention with AbortController"
+        },
+        {
+          "text": "localStorage error handling with LRU eviction"
+        },
+        {
+          "text": "Room cleanup on browser close with beforeunload handler"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "269db39",
+    "toSha": "9046be7",
+    "breaking": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "0.9.1",
+  "date": "2025-12-26",
+  "title": "Update",
+  "build": {
+    "sha": "d0d76b0",
+    "num": 1,
+    "time": "2025-12-26T22:30:30.885Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Grace",
+          "text": "use ref for inputDef to avoid stale closure in PENCILS_DOWN"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "6788a55",
+    "toSha": "d0d76b0",
+    "breaking": false
+  }
+}

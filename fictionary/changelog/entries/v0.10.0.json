@@ -1,0 +1,27 @@
+{
+  "version": "0.10.0",
+  "date": "2025-12-26",
+  "title": "Update",
+  "build": {
+    "sha": "b4a52de",
+    "num": 1,
+    "time": "2025-12-26T22:50:42.019Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Audio",
+          "text": "add dynamic thinking music during submission phase"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "d0d76b0",
+    "toSha": "b4a52de",
+    "breaking": false
+  }
+}

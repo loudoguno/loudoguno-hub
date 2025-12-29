@@ -1,0 +1,27 @@
+{
+  "version": "0.9.0",
+  "date": "2025-12-26",
+  "title": "Update",
+  "build": {
+    "sha": "6788a55",
+    "num": 1,
+    "time": "2025-12-26T22:04:33.154Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Grace",
+          "text": "add invisible 5-second grace period for submissions"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "0f47973",
+    "toSha": "6788a55",
+    "breaking": false
+  }
+}

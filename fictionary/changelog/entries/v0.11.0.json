@@ -1,0 +1,27 @@
+{
+  "version": "0.11.0",
+  "date": "2025-12-27",
+  "title": "Update",
+  "build": {
+    "sha": "cb3deee",
+    "num": 1,
+    "time": "2025-12-27T00:53:15.062Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Reading",
+          "text": "sync definitions to client screens in real-time during READING_1"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "b4a52de",
+    "toSha": "cb3deee",
+    "breaking": false
+  }
+}
