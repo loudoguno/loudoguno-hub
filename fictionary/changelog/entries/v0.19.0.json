@@ -1,0 +1,26 @@
+{
+  "version": "0.19.0",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "a878494",
+    "num": 1,
+    "time": "2025-12-29T21:16:29.666Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "V1 release prep - leaderboards, P0 bug fixes, and security improvements"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "93170c6",
+    "toSha": "a878494",
+    "breaking": false
+  }
+}
