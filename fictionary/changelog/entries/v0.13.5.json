@@ -1,0 +1,26 @@
+{
+  "version": "0.13.5",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "86ec044",
+    "num": 25,
+    "time": "2025-12-29T05:57:02.449Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "critical hooks ordering bug - move useState before useEffect"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "bdc2380",
+    "toSha": "86ec044",
+    "breaking": false
+  }
+}
