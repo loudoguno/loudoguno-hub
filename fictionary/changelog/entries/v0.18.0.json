@@ -1,0 +1,27 @@
+{
+  "version": "0.18.0",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "93170c6",
+    "num": 1,
+    "time": "2025-12-29T19:58:36.323Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Leaderboards",
+          "text": "add LeaderboardPage component and service functions"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "6fd9946",
+    "toSha": "93170c6",
+    "breaking": false
+  }
+}

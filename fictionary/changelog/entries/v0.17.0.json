@@ -1,0 +1,57 @@
+{
+  "version": "0.17.0",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "6fd9946",
+    "num": 1,
+    "time": "2025-12-29T18:51:56.878Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "label": "Auth",
+          "text": "show Google profile picture and name"
+        },
+        {
+          "label": "Auth",
+          "text": "add Phase 3 stats page and fix UI overlap"
+        },
+        {
+          "label": "Auth",
+          "text": "add Phase 2 registration UI"
+        },
+        {
+          "label": "Auth",
+          "text": "implement Phase 1 user accounts foundation"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Auth",
+          "text": "improve profile loading for OAuth users"
+        },
+        {
+          "label": "Auth",
+          "text": "create profile for OAuth users on first login"
+        },
+        {
+          "label": "Auth",
+          "text": "remove stale closure check in linkAccount"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "8087742",
+    "toSha": "6fd9946",
+    "breaking": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "0.18.1",
+  "date": "2025-12-29",
+  "title": "Update",
+  "build": {
+    "sha": "8bee992",
+    "num": 30,
+    "time": "2025-12-29T22:12:53.405Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "move sync effects after state declarations"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "6b6e23f",
+    "toSha": "8bee992",
+    "breaking": false
+  }
+}
