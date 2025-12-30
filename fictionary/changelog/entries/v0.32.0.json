@@ -1,0 +1,68 @@
+{
+  "version": "0.32.0",
+  "date": "2025-12-30",
+  "title": "Update",
+  "build": {
+    "sha": "a2b7b53",
+    "num": 47,
+    "time": "2025-12-30T05:23:30.707Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "add voice settings to lobby, default to browser TTS"
+        },
+        {
+          "text": "comprehensive debug console system"
+        },
+        {
+          "text": "move debug console to global help menu"
+        },
+        {
+          "text": "add debug panel for TTS troubleshooting"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "resume AudioContext and use same context for decode/playback in speak()"
+        },
+        {
+          "text": "await catchphrase before starting definition reading"
+        },
+        {
+          "text": "replace blocking alert with non-blocking toast for avatar collision"
+        },
+        {
+          "text": "only generate changelog on Vercel (CI), not locally"
+        },
+        {
+          "text": "prevent StrictMode double-execution of TTS side effects"
+        },
+        {
+          "text": "render VoicePicker modal in lobby phase"
+        },
+        {
+          "text": "prevent StrictMode double-execution of reading logic"
+        },
+        {
+          "text": "move debug console to proper help menu"
+        },
+        {
+          "text": "move voice settings sync effects after state declarations"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "6b6e23f",
+    "toSha": "a2b7b53",
+    "breaking": false
+  }
+}
