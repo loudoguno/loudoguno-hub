@@ -1,7 +1,19 @@
 {
   "appSlug": "fictionary",
-  "generatedAt": "2025-12-30T02:31:58.654Z",
+  "generatedAt": "2025-12-30T02:51:41.694Z",
   "entries": [
+    {
+      "version": "0.22.0",
+      "date": "2025-12-30",
+      "title": "Update",
+      "href": "/changelog/entries/v0.22.0.json"
+    },
+    {
+      "version": "0.21.0",
+      "date": "2025-12-30",
+      "title": "Update",
+      "href": "/changelog/entries/v0.21.0.json"
+    },
     {
       "version": "0.20.0",
       "date": "2025-12-30",
