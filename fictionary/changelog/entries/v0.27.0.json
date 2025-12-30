@@ -1,11 +1,11 @@
 {
-  "version": "0.26.0",
+  "version": "0.27.0",
   "date": "2025-12-30",
   "title": "Update",
   "build": {
-    "sha": "19e88b9",
-    "num": 1,
-    "time": "2025-12-30T03:33:17.343Z"
+    "sha": "d0cdcb8",
+    "num": 42,
+    "time": "2025-12-30T03:39:58.932Z"
   },
   "sections": [
     {
@@ -31,6 +31,9 @@
       "title": "Fixes",
       "items": [
         {
+          "text": "prevent StrictMode double-execution of TTS side effects"
+        },
+        {
           "text": "render VoicePicker modal in lobby phase"
         },
         {
@@ -47,7 +50,7 @@
   ],
   "meta": {
     "fromSha": "6b6e23f",
-    "toSha": "19e88b9",
+    "toSha": "d0cdcb8",
     "breaking": false
   }
 }
