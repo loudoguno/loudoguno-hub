@@ -1,11 +1,11 @@
 {
-  "version": "0.23.0",
+  "version": "0.24.0",
   "date": "2025-12-30",
   "title": "Update",
   "build": {
-    "sha": "a030b4f",
-    "num": 1,
-    "time": "2025-12-30T03:13:17.237Z"
+    "sha": "ae22b94",
+    "num": 39,
+    "time": "2025-12-30T03:14:15.174Z"
   },
   "sections": [
     {
@@ -28,6 +28,9 @@
       "title": "Fixes",
       "items": [
         {
+          "text": "prevent StrictMode double-execution of reading logic"
+        },
+        {
           "text": "move debug console to proper help menu"
         },
         {
@@ -38,7 +41,7 @@
   ],
   "meta": {
     "fromSha": "6b6e23f",
-    "toSha": "a030b4f",
+    "toSha": "ae22b94",
     "breaking": false
   }
 }
