@@ -1,13 +1,13 @@
 {
   "appSlug": "fictionary",
   "latest": {
-    "version": "0.24.0",
+    "version": "0.25.0",
     "date": "2025-12-30",
     "title": "Update"
   },
   "state": {
     "boundary": "v1.0.0",
-    "tag": "v0.24.0",
-    "processedSha": "ae22b94"
+    "tag": "v0.25.0",
+    "processedSha": "a0e3324"
   }
 }

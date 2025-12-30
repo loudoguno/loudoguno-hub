@@ -1,17 +1,20 @@
 {
-  "version": "0.24.0",
+  "version": "0.25.0",
   "date": "2025-12-30",
   "title": "Update",
   "build": {
-    "sha": "ae22b94",
-    "num": 1,
-    "time": "2025-12-30T03:17:36.331Z"
+    "sha": "a0e3324",
+    "num": 40,
+    "time": "2025-12-30T03:19:06.776Z"
   },
   "sections": [
     {
       "emoji": "💎",
       "title": "Improvements",
       "items": [
+        {
+          "text": "add voice settings to lobby, default to browser TTS"
+        },
         {
           "text": "comprehensive debug console system"
         },
@@ -41,7 +44,7 @@
   ],
   "meta": {
     "fromSha": "6b6e23f",
-    "toSha": "ae22b94",
+    "toSha": "a0e3324",
     "breaking": false
   }
 }
