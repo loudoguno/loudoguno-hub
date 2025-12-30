@@ -1,0 +1,44 @@
+{
+  "version": "0.23.0",
+  "date": "2025-12-30",
+  "title": "Update",
+  "build": {
+    "sha": "a030b4f",
+    "num": 38,
+    "time": "2025-12-30T03:05:09.736Z"
+  },
+  "sections": [
+    {
+      "emoji": "💎",
+      "title": "Improvements",
+      "items": [
+        {
+          "text": "comprehensive debug console system"
+        },
+        {
+          "text": "move debug console to global help menu"
+        },
+        {
+          "text": "add debug panel for TTS troubleshooting"
+        }
+      ]
+    },
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "text": "move debug console to proper help menu"
+        },
+        {
+          "text": "move voice settings sync effects after state declarations"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "6b6e23f",
+    "toSha": "a030b4f",
+    "breaking": false
+  }
+}
