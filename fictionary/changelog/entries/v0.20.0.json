@@ -1,11 +1,11 @@
 {
-  "version": "0.19.0",
+  "version": "0.20.0",
   "date": "2025-12-30",
   "title": "Update",
   "build": {
-    "sha": "4b0c7bf",
-    "num": 1,
-    "time": "2025-12-30T02:31:00.423Z"
+    "sha": "4fdd3a1",
+    "num": 36,
+    "time": "2025-12-30T02:31:58.649Z"
   },
   "sections": [
     {
@@ -25,6 +25,9 @@
       "title": "Fixes",
       "items": [
         {
+          "text": "move debug console to proper help menu"
+        },
+        {
           "text": "move voice settings sync effects after state declarations"
         }
       ]
@@ -32,7 +35,7 @@
   ],
   "meta": {
     "fromSha": "6b6e23f",
-    "toSha": "4b0c7bf",
+    "toSha": "4fdd3a1",
     "breaking": false
   }
 }
