@@ -1,11 +1,11 @@
 {
-  "version": "0.25.0",
+  "version": "0.26.0",
   "date": "2025-12-30",
   "title": "Update",
   "build": {
-    "sha": "a0e3324",
-    "num": 1,
-    "time": "2025-12-30T03:22:27.083Z"
+    "sha": "19e88b9",
+    "num": 41,
+    "time": "2025-12-30T03:23:08.041Z"
   },
   "sections": [
     {
@@ -31,6 +31,9 @@
       "title": "Fixes",
       "items": [
         {
+          "text": "render VoicePicker modal in lobby phase"
+        },
+        {
           "text": "prevent StrictMode double-execution of reading logic"
         },
         {
@@ -44,7 +47,7 @@
   ],
   "meta": {
     "fromSha": "6b6e23f",
-    "toSha": "a0e3324",
+    "toSha": "19e88b9",
     "breaking": false
   }
 }
