@@ -1,13 +1,13 @@
 {
   "appSlug": "gen-trivia",
   "latest": {
-    "version": "0.2.0",
-    "date": "2025-12-04",
+    "version": "0.2.1",
+    "date": "2026-09-09",
     "title": "Update"
   },
   "state": {
-    "boundary": "2c026a5",
-    "tag": "v0.2.0",
-    "processedSha": "fb9076c"
+    "boundary": "fb9076c",
+    "tag": "v0.2.1",
+    "processedSha": "18007ac"
   }
 }

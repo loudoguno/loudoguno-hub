@@ -1,0 +1,27 @@
+{
+  "version": "0.2.1",
+  "date": "2026-09-09",
+  "title": "Update",
+  "build": {
+    "sha": "18007ac",
+    "num": 2,
+    "time": "2026-09-09T23:14:23.202Z"
+  },
+  "sections": [
+    {
+      "emoji": "🐞",
+      "title": "Fixes",
+      "items": [
+        {
+          "label": "Security",
+          "text": "move Gemini key server-side, out of the public bundle (WORK#84) (#1)"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "fromSha": "fb9076c",
+    "toSha": "18007ac",
+    "breaking": false
+  }
+}
